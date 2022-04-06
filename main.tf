@@ -10,8 +10,8 @@ terraform {
 provider "aws" {
   version = "~> 2.0"
   region  = "us-east-1"
-  access_key  = "AKIAZYQVIE6W6GFWPNF4"
-  secret_key  = "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"
+  access_key  = "********"
+  secret_key  = "********"
 }
 
 resource "aws_instance" "LinuxVM" {
